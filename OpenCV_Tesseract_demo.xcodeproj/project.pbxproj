@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E206BAA81DED74DF00460C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BAA71DED74DF00460C50 /* main.m */; };
+		E206BAAB1DED74DF00460C50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BAAA1DED74DF00460C50 /* AppDelegate.m */; };
+		E206BAAE1DED74DF00460C50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BAAD1DED74DF00460C50 /* ViewController.m */; };
+		E206BAB11DED74DF00460C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206BAAF1DED74DF00460C50 /* Main.storyboard */; };
+		E206BAB31DED74DF00460C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E206BAB21DED74DF00460C50 /* Assets.xcassets */; };
+		E206BAB61DED74DF00460C50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206BAB41DED74DF00460C50 /* LaunchScreen.storyboard */; };
+		E206BAC11DED74DF00460C50 /* OpenCV_Tesseract_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BAC01DED74DF00460C50 /* OpenCV_Tesseract_demoTests.m */; };
+		E206BACC1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BACB1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E206BABD1DED74DF00460C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E206BA9B1DED74DF00460C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E206BAA21DED74DF00460C50;
+			remoteInfo = OpenCV_Tesseract_demo;
+		};
+		E206BAC81DED74DF00460C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E206BA9B1DED74DF00460C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E206BAA21DED74DF00460C50;
+			remoteInfo = OpenCV_Tesseract_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E206BAA31DED74DF00460C50 /* OpenCV_Tesseract_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_Tesseract_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E206BAA71DED74DF00460C50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E206BAA91DED74DF00460C50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E206BAAA1DED74DF00460C50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E206BAAC1DED74DF00460C50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E206BAAD1DED74DF00460C50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E206BAB01DED74DF00460C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E206BAB21DED74DF00460C50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E206BAB51DED74DF00460C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E206BAB71DED74DF00460C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E206BABC1DED74DF00460C50 /* OpenCV_Tesseract_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_Tesseract_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E206BAC01DED74DF00460C50 /* OpenCV_Tesseract_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_Tesseract_demoTests.m; sourceTree = "<group>"; };
+		E206BAC21DED74DF00460C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E206BAC71DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_Tesseract_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E206BACB1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_Tesseract_demoUITests.m; sourceTree = "<group>"; };
+		E206BACD1DED74DF00460C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E206BAA01DED74DF00460C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E206BAB91DED74DF00460C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E206BAC41DED74DF00460C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E206BA9A1DED74DF00460C50 = {
+			isa = PBXGroup;
+			children = (
+				E206BAA51DED74DF00460C50 /* OpenCV_Tesseract_demo */,
+				E206BABF1DED74DF00460C50 /* OpenCV_Tesseract_demoTests */,
+				E206BACA1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests */,
+				E206BAA41DED74DF00460C50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E206BAA41DED74DF00460C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E206BAA31DED74DF00460C50 /* OpenCV_Tesseract_demo.app */,
+				E206BABC1DED74DF00460C50 /* OpenCV_Tesseract_demoTests.xctest */,
+				E206BAC71DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E206BAA51DED74DF00460C50 /* OpenCV_Tesseract_demo */ = {
+			isa = PBXGroup;
+			children = (
+				E206BAA91DED74DF00460C50 /* AppDelegate.h */,
+				E206BAAA1DED74DF00460C50 /* AppDelegate.m */,
+				E206BAAC1DED74DF00460C50 /* ViewController.h */,
+				E206BAAD1DED74DF00460C50 /* ViewController.m */,
+				E206BAAF1DED74DF00460C50 /* Main.storyboard */,
+				E206BAB21DED74DF00460C50 /* Assets.xcassets */,
+				E206BAB41DED74DF00460C50 /* LaunchScreen.storyboard */,
+				E206BAB71DED74DF00460C50 /* Info.plist */,
+				E206BAA61DED74DF00460C50 /* Supporting Files */,
+			);
+			path = OpenCV_Tesseract_demo;
+			sourceTree = "<group>";
+		};
+		E206BAA61DED74DF00460C50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E206BAA71DED74DF00460C50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E206BABF1DED74DF00460C50 /* OpenCV_Tesseract_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E206BAC01DED74DF00460C50 /* OpenCV_Tesseract_demoTests.m */,
+				E206BAC21DED74DF00460C50 /* Info.plist */,
+			);
+			path = OpenCV_Tesseract_demoTests;
+			sourceTree = "<group>";
+		};
+		E206BACA1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E206BACB1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.m */,
+				E206BACD1DED74DF00460C50 /* Info.plist */,
+			);
+			path = OpenCV_Tesseract_demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E206BAA21DED74DF00460C50 /* OpenCV_Tesseract_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E206BAD01DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demo" */;
+			buildPhases = (
+				E206BA9F1DED74DF00460C50 /* Sources */,
+				E206BAA01DED74DF00460C50 /* Frameworks */,
+				E206BAA11DED74DF00460C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV_Tesseract_demo;
+			productName = OpenCV_Tesseract_demo;
+			productReference = E206BAA31DED74DF00460C50 /* OpenCV_Tesseract_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E206BABB1DED74DF00460C50 /* OpenCV_Tesseract_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E206BAD31DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demoTests" */;
+			buildPhases = (
+				E206BAB81DED74DF00460C50 /* Sources */,
+				E206BAB91DED74DF00460C50 /* Frameworks */,
+				E206BABA1DED74DF00460C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E206BABE1DED74DF00460C50 /* PBXTargetDependency */,
+			);
+			name = OpenCV_Tesseract_demoTests;
+			productName = OpenCV_Tesseract_demoTests;
+			productReference = E206BABC1DED74DF00460C50 /* OpenCV_Tesseract_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E206BAC61DED74DF00460C50 /* OpenCV_Tesseract_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E206BAD61DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demoUITests" */;
+			buildPhases = (
+				E206BAC31DED74DF00460C50 /* Sources */,
+				E206BAC41DED74DF00460C50 /* Frameworks */,
+				E206BAC51DED74DF00460C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E206BAC91DED74DF00460C50 /* PBXTargetDependency */,
+			);
+			name = OpenCV_Tesseract_demoUITests;
+			productName = OpenCV_Tesseract_demoUITests;
+			productReference = E206BAC71DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E206BA9B1DED74DF00460C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张昭";
+				TargetAttributes = {
+					E206BAA21DED74DF00460C50 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S8KC3FX9WD;
+						ProvisioningStyle = Automatic;
+					};
+					E206BABB1DED74DF00460C50 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S8KC3FX9WD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E206BAA21DED74DF00460C50;
+					};
+					E206BAC61DED74DF00460C50 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S8KC3FX9WD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E206BAA21DED74DF00460C50;
+					};
+				};
+			};
+			buildConfigurationList = E206BA9E1DED74DF00460C50 /* Build configuration list for PBXProject "OpenCV_Tesseract_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E206BA9A1DED74DF00460C50;
+			productRefGroup = E206BAA41DED74DF00460C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E206BAA21DED74DF00460C50 /* OpenCV_Tesseract_demo */,
+				E206BABB1DED74DF00460C50 /* OpenCV_Tesseract_demoTests */,
+				E206BAC61DED74DF00460C50 /* OpenCV_Tesseract_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E206BAA11DED74DF00460C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E206BAB61DED74DF00460C50 /* LaunchScreen.storyboard in Resources */,
+				E206BAB31DED74DF00460C50 /* Assets.xcassets in Resources */,
+				E206BAB11DED74DF00460C50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E206BABA1DED74DF00460C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E206BAC51DED74DF00460C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E206BA9F1DED74DF00460C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E206BAAE1DED74DF00460C50 /* ViewController.m in Sources */,
+				E206BAAB1DED74DF00460C50 /* AppDelegate.m in Sources */,
+				E206BAA81DED74DF00460C50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E206BAB81DED74DF00460C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E206BAC11DED74DF00460C50 /* OpenCV_Tesseract_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E206BAC31DED74DF00460C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E206BACC1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E206BABE1DED74DF00460C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E206BAA21DED74DF00460C50 /* OpenCV_Tesseract_demo */;
+			targetProxy = E206BABD1DED74DF00460C50 /* PBXContainerItemProxy */;
+		};
+		E206BAC91DED74DF00460C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E206BAA21DED74DF00460C50 /* OpenCV_Tesseract_demo */;
+			targetProxy = E206BAC81DED74DF00460C50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E206BAAF1DED74DF00460C50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E206BAB01DED74DF00460C50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E206BAB41DED74DF00460C50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E206BAB51DED74DF00460C50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E206BACE1DED74DF00460C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E206BACF1DED74DF00460C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E206BAD11DED74DF00460C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				INFOPLIST_FILE = OpenCV_Tesseract_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Tesseract-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E206BAD21DED74DF00460C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				INFOPLIST_FILE = OpenCV_Tesseract_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Tesseract-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E206BAD41DED74DF00460C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				INFOPLIST_FILE = OpenCV_Tesseract_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Tesseract-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_Tesseract_demo.app/OpenCV_Tesseract_demo";
+			};
+			name = Debug;
+		};
+		E206BAD51DED74DF00460C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				INFOPLIST_FILE = OpenCV_Tesseract_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Tesseract-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_Tesseract_demo.app/OpenCV_Tesseract_demo";
+			};
+			name = Release;
+		};
+		E206BAD71DED74DF00460C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				INFOPLIST_FILE = OpenCV_Tesseract_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Tesseract-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenCV_Tesseract_demo;
+			};
+			name = Debug;
+		};
+		E206BAD81DED74DF00460C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				INFOPLIST_FILE = OpenCV_Tesseract_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Tesseract-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenCV_Tesseract_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E206BA9E1DED74DF00460C50 /* Build configuration list for PBXProject "OpenCV_Tesseract_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E206BACE1DED74DF00460C50 /* Debug */,
+				E206BACF1DED74DF00460C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E206BAD01DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E206BAD11DED74DF00460C50 /* Debug */,
+				E206BAD21DED74DF00460C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E206BAD31DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E206BAD41DED74DF00460C50 /* Debug */,
+				E206BAD51DED74DF00460C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E206BAD61DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E206BAD71DED74DF00460C50 /* Debug */,
+				E206BAD81DED74DF00460C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E206BA9B1DED74DF00460C50 /* Project object */;
+}
