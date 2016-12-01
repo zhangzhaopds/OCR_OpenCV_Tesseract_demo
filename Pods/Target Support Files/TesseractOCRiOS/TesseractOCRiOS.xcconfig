@@ -1,0 +1,7 @@
+CLANG_CXX_LIBRARY = compiler-default
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TesseractOCRiOS" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/OpenCV" "${PODS_ROOT}/Headers/Public/TesseractOCRiOS"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TesseractOCRiOS/TesseractOCR/lib" $(inherited) "${PODS_ROOT}/TesseractOCRiOS/TesseractOCR/lib"
+OTHER_LDFLAGS = -weak_library /usr/lib/libstdc++.6.0.9.dylib -l"lept" -l"stdc++" -l"tesseract_all" -framework "Foundation" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

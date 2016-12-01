@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2173F52D269B521492860763 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A59018AED8F0CEEF3567095 /* libPods.a */; };
+		E205FBB31DEFEF58001B9D0A /* number5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E205FBB21DEFEF58001B9D0A /* number5.JPG */; };
 		E206BAA81DED74DF00460C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BAA71DED74DF00460C50 /* main.m */; };
 		E206BAAB1DED74DF00460C50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BAAA1DED74DF00460C50 /* AppDelegate.m */; };
 		E206BAAE1DED74DF00460C50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BAAD1DED74DF00460C50 /* ViewController.m */; };
@@ -15,6 +17,17 @@
 		E206BAB61DED74DF00460C50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206BAB41DED74DF00460C50 /* LaunchScreen.storyboard */; };
 		E206BAC11DED74DF00460C50 /* OpenCV_Tesseract_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BAC01DED74DF00460C50 /* OpenCV_Tesseract_demoTests.m */; };
 		E206BACC1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E206BACB1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.m */; };
+		E2207EAB1DEEC26100AFC982 /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2207EAA1DEEC26100AFC982 /* ScanView.m */; };
+		E22F441E1DEDB2DB002BB61B /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E22F44171DEDB2DB002BB61B /* 1.JPG */; };
+		E22F441F1DEDB2DB002BB61B /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E22F44181DEDB2DB002BB61B /* 2.JPG */; };
+		E2A387471DEE63E20022BF96 /* DetectorManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = E2A387441DEE63E20022BF96 /* DetectorManager.mm */; };
+		E2A3874A1DEE64920022BF96 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = E2A387491DEE64920022BF96 /* tessdata */; };
+		E2A3874E1DEE70AC0022BF96 /* number.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E2A3874D1DEE70AC0022BF96 /* number.JPG */; };
+		E2A387501DEE71960022BF96 /* number2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E2A3874F1DEE71960022BF96 /* number2.JPG */; };
+		E2A387521DEE71A20022BF96 /* number3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E2A387511DEE71A20022BF96 /* number3.JPG */; };
+		E2A387541DEE73430022BF96 /* gray1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E2A387531DEE73430022BF96 /* gray1.JPG */; };
+		E2A387561DEE77F50022BF96 /* number4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E2A387551DEE77F50022BF96 /* number4.JPG */; };
+		E2A3879E1DEEB32B0022BF96 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A3879D1DEEB32B0022BF96 /* VideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71A66491E05002410E205468 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8A59018AED8F0CEEF3567095 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F517D0987026816C03BAAF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E205FBB21DEFEF58001B9D0A /* number5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number5.JPG; sourceTree = "<group>"; };
 		E206BAA31DED74DF00460C50 /* OpenCV_Tesseract_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_Tesseract_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E206BAA71DED74DF00460C50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E206BAA91DED74DF00460C50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,20 @@
 		E206BAC71DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_Tesseract_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E206BACB1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_Tesseract_demoUITests.m; sourceTree = "<group>"; };
 		E206BACD1DED74DF00460C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2207EA91DEEC26100AFC982 /* ScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanView.h; sourceTree = "<group>"; };
+		E2207EAA1DEEC26100AFC982 /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
+		E22F44171DEDB2DB002BB61B /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		E22F44181DEDB2DB002BB61B /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		E2A387431DEE63E20022BF96 /* DetectorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectorManager.h; sourceTree = "<group>"; };
+		E2A387441DEE63E20022BF96 /* DetectorManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DetectorManager.mm; sourceTree = "<group>"; };
+		E2A387491DEE64920022BF96 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		E2A3874D1DEE70AC0022BF96 /* number.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number.JPG; sourceTree = "<group>"; };
+		E2A3874F1DEE71960022BF96 /* number2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number2.JPG; sourceTree = "<group>"; };
+		E2A387511DEE71A20022BF96 /* number3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number3.JPG; sourceTree = "<group>"; };
+		E2A387531DEE73430022BF96 /* gray1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gray1.JPG; sourceTree = "<group>"; };
+		E2A387551DEE77F50022BF96 /* number4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = number4.JPG; sourceTree = "<group>"; };
+		E2A3879C1DEEB32B0022BF96 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		E2A3879D1DEEB32B0022BF96 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2173F52D269B521492860763 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E94B1C90011FDC7973577FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71A66491E05002410E205468 /* Pods.debug.xcconfig */,
+				A4F517D0987026816C03BAAF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E206BA9A1DED74DF00460C50 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				E206BABF1DED74DF00460C50 /* OpenCV_Tesseract_demoTests */,
 				E206BACA1DED74DF00460C50 /* OpenCV_Tesseract_demoUITests */,
 				E206BAA41DED74DF00460C50 /* Products */,
+				6E94B1C90011FDC7973577FD /* Pods */,
+				E8CE076936986E1E07F04F09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +146,21 @@
 			children = (
 				E206BAA91DED74DF00460C50 /* AppDelegate.h */,
 				E206BAAA1DED74DF00460C50 /* AppDelegate.m */,
+				E2A387421DEE63E20022BF96 /* Detector */,
 				E206BAAC1DED74DF00460C50 /* ViewController.h */,
 				E206BAAD1DED74DF00460C50 /* ViewController.m */,
+				E2A3879C1DEEB32B0022BF96 /* VideoViewController.h */,
+				E2A3879D1DEEB32B0022BF96 /* VideoViewController.m */,
+				E2207EA91DEEC26100AFC982 /* ScanView.h */,
+				E2207EAA1DEEC26100AFC982 /* ScanView.m */,
+				E2A387531DEE73430022BF96 /* gray1.JPG */,
+				E2A3874D1DEE70AC0022BF96 /* number.JPG */,
+				E2A3874F1DEE71960022BF96 /* number2.JPG */,
+				E2A387511DEE71A20022BF96 /* number3.JPG */,
+				E2A387551DEE77F50022BF96 /* number4.JPG */,
+				E205FBB21DEFEF58001B9D0A /* number5.JPG */,
+				E22F44171DEDB2DB002BB61B /* 1.JPG */,
+				E22F44181DEDB2DB002BB61B /* 2.JPG */,
 				E206BAAF1DED74DF00460C50 /* Main.storyboard */,
 				E206BAB21DED74DF00460C50 /* Assets.xcassets */,
 				E206BAB41DED74DF00460C50 /* LaunchScreen.storyboard */,
@@ -140,6 +196,24 @@
 			path = OpenCV_Tesseract_demoUITests;
 			sourceTree = "<group>";
 		};
+		E2A387421DEE63E20022BF96 /* Detector */ = {
+			isa = PBXGroup;
+			children = (
+				E2A387431DEE63E20022BF96 /* DetectorManager.h */,
+				E2A387441DEE63E20022BF96 /* DetectorManager.mm */,
+				E2A387491DEE64920022BF96 /* tessdata */,
+			);
+			path = Detector;
+			sourceTree = "<group>";
+		};
+		E8CE076936986E1E07F04F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A59018AED8F0CEEF3567095 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E206BAD01DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demo" */;
 			buildPhases = (
+				26D4CC900E77B3CE86AD64F0 /* Check Pods Manifest.lock */,
 				E206BA9F1DED74DF00460C50 /* Sources */,
 				E206BAA01DED74DF00460C50 /* Frameworks */,
 				E206BAA11DED74DF00460C50 /* Resources */,
+				7F90520A6D3CDEB6E9F7388F /* Embed Pods Frameworks */,
+				C3FE678BC4F5150C8DC6D887 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,8 +326,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A387561DEE77F50022BF96 /* number4.JPG in Resources */,
+				E2A3874E1DEE70AC0022BF96 /* number.JPG in Resources */,
+				E205FBB31DEFEF58001B9D0A /* number5.JPG in Resources */,
+				E2A387501DEE71960022BF96 /* number2.JPG in Resources */,
+				E22F441F1DEDB2DB002BB61B /* 2.JPG in Resources */,
+				E2A387521DEE71A20022BF96 /* number3.JPG in Resources */,
 				E206BAB61DED74DF00460C50 /* LaunchScreen.storyboard in Resources */,
+				E2A387541DEE73430022BF96 /* gray1.JPG in Resources */,
+				E2A3874A1DEE64920022BF96 /* tessdata in Resources */,
 				E206BAB31DED74DF00460C50 /* Assets.xcassets in Resources */,
+				E22F441E1DEDB2DB002BB61B /* 1.JPG in Resources */,
 				E206BAB11DED74DF00460C50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,14 +357,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26D4CC900E77B3CE86AD64F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F90520A6D3CDEB6E9F7388F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FE678BC4F5150C8DC6D887 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E206BA9F1DED74DF00460C50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A3879E1DEEB32B0022BF96 /* VideoViewController.m in Sources */,
+				E2207EAB1DEEC26100AFC982 /* ScanView.m in Sources */,
 				E206BAAE1DED74DF00460C50 /* ViewController.m in Sources */,
 				E206BAAB1DED74DF00460C50 /* AppDelegate.m in Sources */,
 				E206BAA81DED74DF00460C50 /* main.m in Sources */,
+				E2A387471DEE63E20022BF96 /* DetectorManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,24 +562,28 @@
 		};
 		E206BAD11DED74DF00460C50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A66491E05002410E205468 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OpenCV_Tesseract_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Tesseract-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.IDCardRecognize-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		E206BAD21DED74DF00460C50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F517D0987026816C03BAAF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OpenCV_Tesseract_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Tesseract-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.IDCardRecognize-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -516,6 +657,7 @@
 				E206BAD21DED74DF00460C50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E206BAD31DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +666,7 @@
 				E206BAD51DED74DF00460C50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E206BAD61DED74DF00460C50 /* Build configuration list for PBXNativeTarget "OpenCV_Tesseract_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +675,7 @@
 				E206BAD81DED74DF00460C50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
